@@ -1,2 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url(layout.css);
 @import url(colors.css);
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 188px;
+    left: 0px;
+    color: cornsilk;
+
+    /* text-shadow: 1px 0px 5px rgb(31, 29, 29); */
+
+    /* rgba (red, green, blue, alpha) */
+    background-color: rgba(50, 50, 50, 0.4);
+
+    /* opacity:0.3; */
+    /* Opacity affects not only the parent but also the childern in this case, h1 */
+
+    padding-left: 44px;
+
+    box-shadow: 1px  1px 10px rgb (50, 50, 50 0.5);
+}
