@@ -4,6 +4,12 @@
     width: 100%;
 }
 
+.menu{
+    float: left;
+    min-height: 200px;
+    width: 100%;
+}
+
 .container::after {
     clear: both;
     content: "";
@@ -67,6 +73,10 @@ img {
 
 /* large size screens */
 @media(min-width: 800px){
+
+    .floater-section {
+        min-height: 350px;
+    } 
 
 
    
